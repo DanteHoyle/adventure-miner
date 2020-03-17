@@ -9,7 +9,7 @@ game_state = {
 
 man = {
     owned: 0,
-    goldPerSecond: .5,
+    goldPerSecond: 2,
     cost: 25,
     upgradeMultipliar: 1.2
 }
@@ -17,14 +17,14 @@ man = {
 dude = {
     owned: 0,
     goldPerSecond: 5,
-    cost: 200,
+    cost: 100,
     upgradeMultipliar: 1.2
 }
 
 gentleman = {
     owned: 0,
     goldPerSecond: 25,
-    cost: 500,
+    cost: 250,
     upgradeMultipliar: 1.2
 }
 

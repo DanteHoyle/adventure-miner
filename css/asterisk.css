@@ -30,6 +30,10 @@
     padding: 10px;
     border: solid 1px black;
 }
+
+main {
+    height: 100%;
+}
 /* UI */
 
 /* Title */
@@ -50,9 +54,14 @@ h1 {
 }
 
 #mine-button {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     float: right;
+}
+
+#mine-button img {
+    width: 80%;
+    height: 80%;
 }
 
 /* Buy Menu */
@@ -76,6 +85,10 @@ h1 {
     user-select: none;
 
     background: linear-gradient(to bottom right, white, lightgrey);
+}
+
+.purchase-button span {
+    font-weight: bold;
 }
 
 .purchase-button:hover {
