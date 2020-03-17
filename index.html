@@ -8,6 +8,7 @@
 
     <body>
         <main class="container clearfix">
+            <h1>Is that your guy with an actually functional idle game?</h1>
             <!-- Control Panel -->
             <div id="control-panel" class="outline">
                 <div class="left">
@@ -19,11 +20,22 @@
     
             <!-- Buy Menu -->
             <div id="buy-menu" class="outline">
-                <h2><u>Buy Menu</u></h2>
-                <button>
-                    <h3>Man with shovel</h3>
-                    <p>cost: <span id="cost">100 gold</span></p>
-                </button>
+                <h2>Buy Menu</h2>
+                <div class="purchase-button" id="" onclick="purchase_man()">
+                    <h3>Man With a Shovel</h3>
+                    <p>cost: <span id="man_cost">25g</span></p>
+                    <p>owned: <span id="man_owned">0</span></p>
+                </div>
+                <div class="purchase-button" onclick="purchase_dude()">
+                    <h3>Dude using pickaxe</h3>
+                    <p>cost: <span id="dude_cost">200g</span></p>
+                    <p>owned: <span id="dude_owned">0</span></p>
+                </div>
+                <div class="purchase-button" onclick="purchase_gentleman()">
+                    <h3>Genteleman weilding Dynamite</h3>
+                    <p>cost: <span id="gentleman_cost">500g</span></p>
+                    <p>owned: <span id="gentleman_owned">0</span></p>
+                </div>
             </div>
 
             <!-- Displays Where The Miners Are -->
