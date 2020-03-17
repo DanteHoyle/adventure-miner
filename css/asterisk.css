@@ -79,6 +79,7 @@ h1 {
 
 
 .purchase-button {
+    position: relative;
     width: 300px;
     height: 80px;
     outline: solid black 1px;
@@ -102,4 +103,3 @@ h1 {
 #cost {
     font-weight: bold;
 }
-
