@@ -1,0 +1,36 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Adventure-Miner</title>
+        <link rel="stylesheet" href="css/asterisk.css">
+        <script src="js/miners.js"></script>
+    </head>
+
+    <body>
+        <main class="container clearfix">
+            <!-- Control Panel -->
+            <div id="control-panel" class="outline">
+                <div class="left">
+                    <p>GOLD: <span id="gold-count"></span></p>
+                    <p>GPS: <span id="gps-count"></span></p>
+                </div>
+                <button id="mine-button" class="right" onclick="userClickMine()">Mine!</button>
+            </div>
+    
+            <!-- Buy Menu -->
+            <div id="buy-menu" class="outline">
+                <h2><u>Buy Menu</u></h2>
+                <button>
+                    <h3>Man with shovel</h3>
+                    <p>cost: <span id="cost">100 gold</span></p>
+                </button>
+            </div>
+
+            <!-- Displays Where The Miners Are -->
+            <div>
+
+            </div>
+        </main>
+    </body>
+
+</html>

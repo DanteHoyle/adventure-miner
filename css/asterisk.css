@@ -1,0 +1,77 @@
+/* Asterisk Classses */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.outline {
+    padding: 10px;
+    border: solid 1px black;
+}
+/* UI */
+
+/* Control Panel */
+#control-panel {
+    float: left;
+    margin-top: 10px;
+    min-width: 20%;
+}
+
+#control-panel span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#mine-button {
+    width: 40px;
+    height: 40px;
+    float: right;
+}
+
+/* Buy Menu */
+#buy-menu {
+    float: right;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#buy-menu *, #control-panel * {
+    margin: 5px 0;
+}
+
+/* Buy Menu Buttons */
+#buy-menu button {
+    width: 300px;
+    height: 80px;
+}
+
+#buy-menu button h3 {
+    text-align: center;
+}
+
+#buy-menu button p {
+    float: right;
+}
+
+#cost {
+    font-weight: bold;
+}
